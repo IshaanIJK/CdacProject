@@ -1,0 +1,7 @@
+Create table Vehicle_Details (
+vehicle_No char(12) primary key, 
+Model varchar(20) not null,
+color varchar(15) not null, 
+MobileNo char(10),
+FOREIGN KEY (MobileNo) REFERENCES user(MobileNo)
+);
