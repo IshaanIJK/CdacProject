@@ -20,14 +20,14 @@ public class controllerRegistration {
 	private UserRepository userRepository;
 		
 	@GetMapping("/register")
-	public String showRegistrationForm(Model user) {
-		user.addAttribute("user",new user());
+	public String showRegistrationForm(Model model) {
+		model.addAttribute("user",new user());
 		return "registered successful";		
 	}
 	
 	@PostMapping("/register")
-	public String pocessRegistrationForm(@ModelAttribute("user")user user1) {
-		userRepository.save(user1);
+	public String pocessRegistrationForm(@ModelAttribute("user")user user) {
+		userRepository.save(user);
 		return "redirect:/success";		
 	}	
 }
