@@ -1,0 +1,19 @@
+2023-02-24 14:47:16,499 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-24 14:48:28,735 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-24 14:48:56,317 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.CdacProject:ParkingManagement:0.0.1-SNAPSHOT @ /Users/ishaankadam/eclipse-parking_mgmt/ParkingManagement/pom.xml.
+2023-02-24 14:49:00,546 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ParkingManagement/src/main/java
+2023-02-24 14:49:00,547 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ParkingManagement/src/main/resources
+2023-02-24 14:49:00,548 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ParkingManagement/src/main/resources
+2023-02-24 14:49:00,549 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ParkingManagement/src/test/java
+2023-02-24 14:49:02,778 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
+2023-02-24 16:12:23,873 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.CdacProject:ParkingManagement:0.0.1-SNAPSHOT @ /Users/ishaankadam/eclipse-parking_mgmt/ParkingManagement/pom.xml.
+2023-02-24 16:12:25,404 [Worker-67: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.32/mysql-connector-java-8.0.32.pom
+2023-02-24 16:12:25,671 [Worker-67: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.32/mysql-connector-java-8.0.32.pom
+2023-02-24 16:12:26,251 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-24 16:12:26,252 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-24 16:12:26,258 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/ishaankadam/eclipse-parking_mgmt/ParkingManagement/src/test/resources
+2023-02-24 16:12:26,275 [Worker-67: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ParkingManagement
+2023-02-24 16:12:26,281 [Worker-67: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ParkingManagement
+2023-02-24 16:19:01,458 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-24 16:19:01,528 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-24 16:19:01,531 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/ishaankadam/eclipse-parking_mgmt/ParkingManagement/src/test/resources
