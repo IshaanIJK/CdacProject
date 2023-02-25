@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.Bean.User;
 
@@ -11,15 +12,21 @@ import com.Bean.User;
 public class UserController {
 	
 	@GetMapping("/")
-	public String index() {
+	public String home() {
 		return "index";
 	}
 	
-	@PostMapping("/home")
-	public String userRegistration(@ModelAttribute User user) {
-		System.out.println(user.toString());
-		
+	@RequestMapping("/")
+	public String index()
+	{
 		return "index";
 	}
+	
+//	@PostMapping("/home")
+//	public String userRegistration(@ModelAttribute User user) {
+//		System.out.println(user.toString());
+//		
+//		return "index";
+//	}
 
 }
