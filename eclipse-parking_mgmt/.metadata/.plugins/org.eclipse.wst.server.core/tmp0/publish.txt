@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Fri Feb 24 16:19:02 IST 2023
-org.eclipse.jst.jee.server\:/binary\:/Users/ishaankadam/.m2/repository/org/springframework/spring-web/6.0.5/spring-web-6.0.5.jar=WEB-INF/lib/spring-web-6.0.5.jar

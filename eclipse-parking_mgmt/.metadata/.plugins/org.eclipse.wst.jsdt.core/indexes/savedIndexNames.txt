@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+/Users/ishaankadam/eclipse-parking_mgmt/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-844754134.index
-3931176577.index
-3344991223.index
-2909267385.index
-2233577460.index
-1396227259.index
-2852572366.index
