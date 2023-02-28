@@ -1,11 +1,10 @@
 create table User (
-Username varchar (20) NOT NULL,
 Name varchar (50),
-EmailID varchar(30) NOT NULL,
+EmailID varchar(30) ,
 MobileNo char(10) primary key,
-City varchar(20) default 'Mumbai' not null,
-Password varchar(16) NOT NULL,
-QrCode blob NOT NULL, 
+City varchar(20) default 'Mumbai',
+Password varchar(16),
+QrCode blob, 
 a1 varchar (50),
 a2 varchar (50), 
 a3 varchar (50), 
@@ -32,3 +31,5 @@ e3 datetime,
 e4 datetime,  
 e5 datetime  
 );
+
+Insert into User (Name,EmailId,MobileNo, Password) values ()

@@ -1,10 +1,10 @@
-package com.parking_management.parking_mgmt;
+package com.parking.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ParkingMgmtApplicationTests {
+class ParkingManagementApplicationTests {
 
 	@Test
 	void contextLoads() {

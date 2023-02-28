@@ -1,13 +1,13 @@
-package com.parking_management.parking_mgmt;
+package com.parking.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ParkingMgmtApplication {
+public class ParkingManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ParkingMgmtApplication.class, args);
+		SpringApplication.run(ParkingManagementApplication.class, args);
 	}
 
 }
